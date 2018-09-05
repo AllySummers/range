@@ -10,7 +10,7 @@ function page_generate($template) {
 		echo "				<div class='col-md-4 col-lg-4 col-xl-5 col-sm-2'></div>\n";
 		echo "				<div style='margin: 0 auto;' class='form-group col-xs-12 col-sm-8 col-md-4 col-lg-4 col-xl-2'>\n";
 		echo "					<label for='username'>Username: </label>\n";
-		echo "					<input class='form-control' type='text' name='username' id='username' placeholder='user-1234'>\n";
+		echo "					<input class='form-control' type='text' name='username' id='username' placeholder='root'>\n";
 		echo "				</div>\n";
 		echo "				<div class='col-md-4 col-lg-4 col-xl-5 col-sm-2'></div>\n";
 		echo "			</fieldset>\n";
@@ -18,7 +18,7 @@ function page_generate($template) {
 		echo "				<div class='col-md-4 col-lg-4 col-xl-5 col-sm-2'></div>\n";
 		echo "				<div style='margin: 0 auto;' class='form-group col-xs-12 col-sm-8 col-md-4 col-lg-4 col-xl-2'>\n";
 		echo "					<label for='password'>Password: </label>\n";
-		echo "					<input class='form-control' type='text' name='password' id='password' placeholder='password'>\n";
+		echo "					<input class='form-control' type='text' name='password' id='password' placeholder='dictionary'>\n";
 		echo "				</div>\n";
 		echo "				<div class='col-md-4 col-lg-4 col-xl-5 col-sm-2'></div>\n";
 		echo "			</fieldset>\n";
@@ -31,7 +31,7 @@ function page_generate($template) {
 		echo "				<div class='col-md-4 col-lg-4 col-xl-5 col-sm-2'></div>\n";
 		echo "				<div style='margin: 0 auto;' class='form-group col-xs-12 col-sm-8 col-md-4 col-lg-4 col-xl-2'>\n";
 		echo "					<label for='username'>Username: </label>\n";
-		echo "					<input class='form-control' type='text' name='username' id='username' placeholder='user-1234'>\n";
+		echo "					<input class='form-control' type='text' name='username' id='username' placeholder='root'>\n";
 		echo "				</div>\n";
 		echo "				<div class='col-md-4 col-lg-4 col-xl-5 col-sm-2'></div>\n";
 		echo "			</fieldset>\n";
@@ -39,7 +39,7 @@ function page_generate($template) {
 		echo "				<div class='col-md-2 col-lg-3 col-xl-3'></div>\n";
 		echo "				<div style='margin: 0 auto;' class='form-group col-xs-12 col-sm-12 col-md-8 col-lg-6 col-xl-6'>\n";
 		echo "					<label for='password'>Password: </label>\n";
-		echo "					<input class='form-control' type='text' name='password' id='password' placeholder='password'>\n";
+		echo "					<input class='form-control' type='text' name='password' id='password' placeholder='dictionary'>\n";
 		echo "				</div>\n";
 		echo "				<div class='col-md-2 col-lg-3 col-xl-3'></div>\n";
 		echo "			</fieldset>\n";
@@ -128,7 +128,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <?php page_generate($page_generate); ?>
 <footer style="position: fixed; bottom: 1px; left: 0; right: 0; height: 10%;">
 	<hr style="border: 0; height: 1px; background: #333; background-image: linear-gradient(to right, #ccc, #333, #ccc);">
-	<em style="width: 10%; float: right;">Designed by The Range Programming Team</em>
+	<em style="width: 10%; float: right;">Designed Ally S</em>
 	<em style="width: 10%; float: left;">Copyright 2018 The Range</em>
 </footer>
 	</body>
