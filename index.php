@@ -47,7 +47,7 @@ function page_generate($template) {
 		echo "			<input style='margin-top: 1%;' type='submit' value='Login'>\n";
 		echo "		</form>\n";
 	} else if ($template === 'show') {
-		$con = mysqli_connect("localhost", "school", "dictionary", "health_records");
+		$con = mysqli_connect("localhost", "redacted", "redacted", "health_records");
 		if (mysqli_connect_errno()) {
 			die("Failed to connect to MySQL: " . mysqli_connect_error());
 		}
